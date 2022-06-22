@@ -106,11 +106,6 @@
             <suiteXmlFiles>
               <suiteXmlFile>testng.xml</suiteXmlFile>
             </suiteXmlFiles>
-            <systemPropertyVariables>
-              <propertyName>firefox</propertyName>
-            </systemPropertyVariables>
-            <groups>functest,perftest</groups>
-
           </configuration>
         </plugin>
       </plugins>
