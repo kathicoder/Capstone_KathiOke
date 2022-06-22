@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Testing Registration and login"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="25.013">
+    <properties></properties>
+
+
+
+            <testcase
+                name="tc0005_verify_password_validation"
+                time="25.013"
+                classname="com.alexnova.kathi.oke.testcases.RegistrationTests">
+            </testcase>
+</testsuite>

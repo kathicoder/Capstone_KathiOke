@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Testing Chrome"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="96.621">
+    <properties></properties>
+
+
+
+            <testcase
+                name="tc0005_verify_password_validation"
+                time="11.061"
+                classname="com.alexnova.kathi.oke.testcases.RegistrationTests">
+            </testcase>
+            <testcase
+                name="tc0003_registration_verify_email"
+                time="12.149"
+                classname="com.alexnova.kathi.oke.testcases.RegistrationTests">
+            </testcase>
+            <testcase
+                name="tc0003_registration_verify_email"
+                time="10.354"
+                classname="com.alexnova.kathi.oke.testcases.RegistrationTests">
+            </testcase>
+            <testcase
+                name="tc0003_registration_verify_email"
+                time="11.627"
+                classname="com.alexnova.kathi.oke.testcases.RegistrationTests">
+            </testcase>
+            <testcase
+                name="tc0001_get_Registration_Page_Test"
+                time="2.852"
+                classname="com.alexnova.kathi.oke.testcases.RegistrationTests">
+            </testcase>
+            <testcase
+                name="tc0004_verify_mandatory_fields"
+                time="12.804"
+                classname="com.alexnova.kathi.oke.testcases.RegistrationTests">
+            </testcase>
+            <testcase
+                name="tc0002_registration_New_User_Test"
+                time="24.198"
+                classname="com.alexnova.kathi.oke.testcases.RegistrationTests">
+            </testcase>
+            <testcase
+                name="tc0003_registration_verify_email"
+                time="11.576"
+                classname="com.alexnova.kathi.oke.testcases.RegistrationTests">
+            </testcase>
+</testsuite>

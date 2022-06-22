@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Testing Chrome"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="16.873">
+    <properties></properties>
+
+
+
+            <testcase
+                name="tc0008_validate_search_test"
+                time="14.032"
+                classname="com.alexnova.kathi.oke.testcases.SearchProductsTests">
+            </testcase>
+            <testcase
+                name="tc0009_blank_search_test"
+                time="2.841"
+                classname="com.alexnova.kathi.oke.testcases.SearchProductsTests">
+            </testcase>
+</testsuite>

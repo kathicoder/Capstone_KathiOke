@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Testing Chrome"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="33.723">
+    <properties></properties>
+
+
+
+            <testcase
+                name="tc0018_negative_credit_card_field_test"
+                time="4.964"
+                classname="com.alexnova.kathi.oke.testcases.CheckOutTests">
+            </testcase>
+            <testcase
+                name="tc0019_negative_credit_card_info_test"
+                time="0.688"
+                classname="com.alexnova.kathi.oke.testcases.CheckOutTests">
+            </testcase>
+            <testcase
+                name="tc0016_verify_discount_code_application_test"
+                time="13.926"
+                classname="com.alexnova.kathi.oke.testcases.CheckOutTests">
+            </testcase>
+            <testcase
+                name="tc0017_verify_payment_modes_test"
+                time="14.145"
+                classname="com.alexnova.kathi.oke.testcases.CheckOutTests">
+            </testcase>
+</testsuite>

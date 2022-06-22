@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite">
+
+    <test name="Testing Chrome" enabled="true">
+    <parameter name="browserName" value="Chrome"></parameter>
+        <classes>
+            <class name="com.alexnova.kathi.oke.testcases.RegistrationTests"></class>
+            <class name="com.alexnova.kathi.oke.testcases.LoginTests"></class>
+            <class name="com.alexnova.kathi.oke.testcases.SearchProductsTests"></class>
+            <class name="com.alexnova.kathi.oke.testcases.ProductAddToCartTests"></class>
+            <class name="com.alexnova.kathi.oke.testcases.CheckOutTests"></class>
+        </classes>
+    </test>
+    <test name="Testing Edge" enabled="false">
+    <parameter name="browserName" value="EdgeExplore"></parameter>
+        <classes>
+            <class name="com.alexnova.kathi.oke.testcases.RegistrationTests"></class>
+            <class name="com.alexnova.kathi.oke.testcases.LoginTests"></class>
+            <class name="com.alexnova.kathi.oke.testcases.SearchProductsTests"></class>
+            <class name="com.alexnova.kathi.oke.testcases.ProductAddToCartTests"></class>
+            <class name="com.alexnova.kathi.oke.testcases.CheckOutTests"></class>
+        </classes>
+    </test>
+    <test name="Testing Firefox" enabled="false" >
+    <parameter name="browserName" value="Firefox"></parameter>
+        <classes>
+            <class name="com.alexnova.kathi.oke.testcases.RegistrationTests"></class>
+            <class name="com.alexnova.kathi.oke.testcases.LoginTests"></class>
+            <class name="com.alexnova.kathi.oke.testcases.SearchProductsTests"></class>
+            <class name="com.alexnova.kathi.oke.testcases.ProductAddToCartTests"></class>
+            <class name="com.alexnova.kathi.oke.testcases.CheckOutTests"></class>
+        </classes>
+    </test>
+
+</suite>
