@@ -8,6 +8,7 @@ UI acceptance tests result in a HTML report for each feature in. In the case of 
 
 ## UI Project Technical Environment
 
+* Git link https://github.com/kathicoder/Capstone_KathiOke.git
 * Maven project in IntelliJ
 * Java 8
 * Selenium WebDriver
