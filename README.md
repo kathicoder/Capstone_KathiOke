@@ -62,7 +62,7 @@ flushes extent reports
 
 ## UI Challenges
 
-* Captcha
+* Captcha <br /> Thread.sleep instances were added to deal with website captcha interference where manual intervention was required
 * Requirements
 * No Test Environment
 * Report creation
