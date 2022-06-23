@@ -37,27 +37,29 @@ a few Thread.sleep instances were added to deal with website captcha interferenc
 
 ## The following TestNG annotations are used:
 
-@Parameter
+* @Parameter
 used in the testng.xml file to pass browser choice 
-@Test
+* @Test
 used for each test case
-@BeforeMethod
+* @BeforeMethod
 gets testcase name from Java Reflection and sets up extent report at test level and sets up screen shot png file
-@AfterMethod
+* @AfterMethod
 ITestResult is used to get result status of test and screenshots are taken
 
-@BeforeClass
+* @BeforeClass
 starts browser
 deletes cookies
 starts implicit wait
-@AfterClass
+* @AfterClass
 quits driver 
-@BeforeSuite
+* @BeforeSuite
 sets up extent reports 
-@AfterSuite
+* @AfterSuite
 flushes extent reports
 
 The project is broken into separate modules for API and UI testing
+
+## API Testing
 
 API testing was run using: https://gorest.co.in/public/v2/users https://gorest.co.in/public/v2/posts http://api.openweathermap.org/data/2.5/weather?q=New York&appid=1f3c5ae0f38df8fd7bc09ad6874a403
 
