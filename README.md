@@ -13,16 +13,16 @@ TestNG and Extent reports
 
 ## Dependencies added:
 
-org.seleniumhq.selenium,selenium-java, version 4.0
-org.testng,testng, version 6.14.3
-org.testng,reportng, version 1.2.2
-commons-io, commons-io, version 2.11
-com.aventstack, extentreports, version 3.1.5
+* org.seleniumhq.selenium,selenium-java, version 4.0
+* org.testng,testng, version 6.14.3
+* org.testng,reportng, version 1.2.2
+* commons-io, commons-io, version 2.11
+* com.aventstack, extentreports, version 3.1.5
 
 ## Plugins added:
 
-org.apache.maven.plugins, maven-compiler-plugin,version 3.5.1
-org.apache.maven.plugins, maven-surefire-plugin, version 3.0.0-M6
+* org.apache.maven.plugins, maven-compiler-plugin,version 3.5.1
+* org.apache.maven.plugins, maven-surefire-plugin, version 3.0.0-M6
 
 ## Environment setup to use this project:
 Chrome Chromedriver, Edge and Firefox browsers installed
