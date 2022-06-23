@@ -62,6 +62,9 @@ flushes extent reports
 
 ## API Testing
 
-API testing was run using: https://gorest.co.in/public/v2/users https://gorest.co.in/public/v2/posts http://api.openweathermap.org/data/2.5/weather?q=New York&appid=1f3c5ae0f38df8fd7bc09ad6874a403
+API testing was run using: 
+* https://gorest.co.in/public/v2/users
+* https://gorest.co.in/public/v2/posts 
+* http://api.openweathermap.org/data/2.5/weather?q=New York&appid=1f3c5ae0f38df8fd7bc09ad6874a403
 
 API acceptance tests result in a HTML report for each feature.
