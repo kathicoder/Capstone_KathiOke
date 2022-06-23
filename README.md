@@ -68,6 +68,4 @@ API testing was run using:
 * http://api.openweathermap.org/data/2.5/weather?q=New%20York&appid=1f3c5ae0f38df8fd7bc09ad6874a4039
 
 
-API tests were created in Postman.
-Postman sharelink was run using newman and also run using Jenkins.
-API tests result in a HTML report.
+API tests were created in Postman. <br />Postman sharelink was run using newman and also run using Jenkins.<br />API tests result in a HTML report.
