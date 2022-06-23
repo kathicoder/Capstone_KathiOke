@@ -5,8 +5,7 @@ import org.openqa.selenium.WebDriver;
 
 public class ProductPage {
     WebDriver driver;
-    By productPriceField = By.xpath("//*[@id=\"shopify-section-product\"]/section/div/div[3]/div/p/span[1]");
-
+    By productPriceField = By.className("money");
     By productSizeField = By.xpath("//*[@id=\"bcpo-select-option-0\"]/div[2]/label");
     By productColorField = By.xpath("//*[@id=\"bcpo-select-option-1\"]/div[5]/label");
     By addToCartButton = By.xpath("//*[@id=\"product_form_4313722716213\"]/div[4]/input");
@@ -23,7 +22,7 @@ public class ProductPage {
     }
     public String getProductPrice()
     {
-       return driver.findElement(productPriceField).getAttribute("data-vitals-cc-usd");
+       return driver.findElement(productPriceField).getText();
     }
     public void clickSizeField()
     {

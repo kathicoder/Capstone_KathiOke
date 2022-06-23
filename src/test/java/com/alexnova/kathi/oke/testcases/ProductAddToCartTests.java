@@ -122,7 +122,7 @@ public class ProductAddToCartTests extends BaseTests{
     // This test asserts that the quantity can be removed from the cart
     //**********************************************************************************************
     @Test(priority = 15, enabled = true)
-    public void tc0015_verify_quantity_matches_cost_in_cart_test()
+    public void tc0015_verify_quantity_can_be_removed_from_cart_test()
     {
         cartPage = new CartPage(driver);
         cartPage.clearQuantity();

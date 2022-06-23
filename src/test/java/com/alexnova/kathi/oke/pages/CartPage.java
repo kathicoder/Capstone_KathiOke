@@ -8,11 +8,15 @@ public class CartPage {
 
     WebDriver driver;
 
-    By cartQuantityField = By.id("updates_30999621468213");
+    By cartQuantityField = By.name("updates[]");
     By cartUpdateButton = By.xpath("//*[@id=\"shopify-section-cart\"]/section/form/div/div/div[2]/input");
-    By itemPriceField = By.xpath("//*[@id=\"shopify-section-cart\"]/section/form/table/tbody/tr/td[2]/span/span");
-    By itemTotalField = By.xpath("//*[@id=\"shopify-section-cart\"]/section/form/table/tbody/tr/td[4]/span/span");
+    By itemPriceField = By.xpath("//*[contains(@data-title,'Price')]");
+//    By itemTotalField = By.xpath("//*[@id=\"shopify-section-cart\"]/section/form/table/tbody/tr/td[4]/span/span");
+
+    By itemTotalField = By.xpath("//*[contains(@data-title,'Total')]");
+    //*[contains(@attribute_name,'attribute_value')]
     By emptyMessageField = By.xpath("//*[@id=\"shopify-section-cart\"]/section/p");
+
     public CartPage(WebDriver driver) {
         this.driver = driver;
     }

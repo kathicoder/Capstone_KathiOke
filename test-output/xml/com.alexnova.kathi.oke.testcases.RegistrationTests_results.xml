@@ -1,52 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Testing Chrome"
            tests="8"
-           failures="0"
+           failures="2"
            errors="0"
            skipped="0"
-           time="96.621">
+           time="58.189">
     <properties></properties>
 
+            <testcase
+                name="tc0003_registration_verify_email"
+                time="7.230"
+                classname="com.alexnova.kathi.oke.testcases.RegistrationTests">
+
+            <failure type="org.openqa.selenium.WebDriverException" message="target frame detached
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;KATHI-DELL-7586&apos;, ip: &apos;192.168.0.123&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_332&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da7c7a10c9b2ae8b32c08ce9ed97675a, findElement {using=xpath, value=//*[@id=&quot;customer_login&quot;]/p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\kathi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49371}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49371/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: da7c7a10c9b2ae8b32c08ce9ed97675a">
+                <![CDATA[org.openqa.selenium.WebDriverException: target frame detached
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'KATHI-DELL-7586', ip: '192.168.0.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da7c7a10c9b2ae8b32c08ce9ed97675a, findElement {using=xpath, value=//*[@id="customer_login"]/p}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\kathi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49371}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49371/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: da7c7a10c9b2ae8b32c08ce9ed97675a
+                sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)java.lang.reflect.Constructor.newInstance(Constructor.java:423)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)com.alexnova.kathi.oke.pages.LoginPage.getErrorBanner(LoginPage.java:40)com.alexnova.kathi.oke.testcases.RegistrationTests.tc0003_registration_verify_email(RegistrationTests.java:114)sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.lang.reflect.Method.invoke(Method.java:498)org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)org.testng.internal.Invoker.invokeMethod(Invoker.java:583)org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)org.testng.TestRunner.privateRun(TestRunner.java:648)org.testng.TestRunner.run(TestRunner.java:505)org.testng.SuiteRunner.runTest(SuiteRunner.java:455)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)org.testng.SuiteRunner.run(SuiteRunner.java:364)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)org.testng.TestNG.runSuitesLocally(TestNG.java:1137)org.testng.TestNG.runSuites(TestNG.java:1049)org.testng.TestNG.run(TestNG.java:1017)com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </failure>
+    </testcase>
+            <testcase
+                name="tc0002_registration_New_User_Test"
+                time="13.028"
+                classname="com.alexnova.kathi.oke.testcases.RegistrationTests">
+
+            <failure type="org.openqa.selenium.WebDriverException" message="target frame detached
+  (Session info: chrome=102.0.5005.115)
+Build info: version: &apos;4.0.0&apos;, revision: &apos;3a21814679&apos;
+System info: host: &apos;KATHI-DELL-7586&apos;, ip: &apos;192.168.0.123&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_332&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da7c7a10c9b2ae8b32c08ce9ed97675a, findElement {using=css selector, value=.page\-title}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\kathi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49371}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49371/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: da7c7a10c9b2ae8b32c08ce9ed97675a">
+                <![CDATA[org.openqa.selenium.WebDriverException: target frame detached
+  (Session info: chrome=102.0.5005.115)
+Build info: version: '4.0.0', revision: '3a21814679'
+System info: host: 'KATHI-DELL-7586', ip: '192.168.0.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_332'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [da7c7a10c9b2ae8b32c08ce9ed97675a, findElement {using=css selector, value=.page\-title}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\kathi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49371}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49371/devtoo..., se:cdpVersion: 102.0.5005.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: da7c7a10c9b2ae8b32c08ce9ed97675a
+                sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)java.lang.reflect.Constructor.newInstance(Constructor.java:423)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)org.openqa.selenium.By$PreW3CLocator.findElement(By.java:429)org.openqa.selenium.By$ByClassName.findElement(By.java:298)org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:136)org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)com.alexnova.kathi.oke.pages.AccountPage.getPageTitle(AccountPage.java:18)com.alexnova.kathi.oke.testcases.RegistrationTests.tc0002_registration_New_User_Test(RegistrationTests.java:76)sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)java.lang.reflect.Method.invoke(Method.java:498)org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)org.testng.internal.Invoker.invokeMethod(Invoker.java:583)org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)org.testng.TestRunner.privateRun(TestRunner.java:648)org.testng.TestRunner.run(TestRunner.java:505)org.testng.SuiteRunner.runTest(SuiteRunner.java:455)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)org.testng.SuiteRunner.run(SuiteRunner.java:364)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)org.testng.TestNG.runSuitesLocally(TestNG.java:1137)org.testng.TestNG.runSuites(TestNG.java:1049)org.testng.TestNG.run(TestNG.java:1017)com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </failure>
+    </testcase>
 
 
             <testcase
                 name="tc0005_verify_password_validation"
-                time="11.061"
+                time="3.558"
                 classname="com.alexnova.kathi.oke.testcases.RegistrationTests">
             </testcase>
             <testcase
                 name="tc0003_registration_verify_email"
-                time="12.149"
+                time="7.105"
                 classname="com.alexnova.kathi.oke.testcases.RegistrationTests">
             </testcase>
             <testcase
                 name="tc0003_registration_verify_email"
-                time="10.354"
+                time="6.733"
                 classname="com.alexnova.kathi.oke.testcases.RegistrationTests">
             </testcase>
             <testcase
                 name="tc0003_registration_verify_email"
-                time="11.627"
+                time="6.627"
                 classname="com.alexnova.kathi.oke.testcases.RegistrationTests">
             </testcase>
             <testcase
                 name="tc0001_get_Registration_Page_Test"
-                time="2.852"
+                time="2.867"
                 classname="com.alexnova.kathi.oke.testcases.RegistrationTests">
             </testcase>
             <testcase
                 name="tc0004_verify_mandatory_fields"
-                time="12.804"
-                classname="com.alexnova.kathi.oke.testcases.RegistrationTests">
-            </testcase>
-            <testcase
-                name="tc0002_registration_New_User_Test"
-                time="24.198"
-                classname="com.alexnova.kathi.oke.testcases.RegistrationTests">
-            </testcase>
-            <testcase
-                name="tc0003_registration_verify_email"
-                time="11.576"
+                time="11.041"
                 classname="com.alexnova.kathi.oke.testcases.RegistrationTests">
             </testcase>
 </testsuite>

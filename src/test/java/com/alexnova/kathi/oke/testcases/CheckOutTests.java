@@ -115,7 +115,9 @@ public class CheckOutTests extends BaseTests{
     {
         paymentPage = new PaymentPage(driver);
         paymentPage.switchToCardNumberFrame();
-        paymentPage.setCreditCardNumberField("36985214769874");
+        paymentPage.setCreditCardNumberField("3698");
+        paymentPage.setCreditCardNumberField("5214");
+        paymentPage.setCreditCardNumberField("7698");
         driver.switchTo().parentFrame();
         paymentPage.switchToCardNameFrame();
         paymentPage.setNameOnCardField("John Fink");

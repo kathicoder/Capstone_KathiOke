@@ -55,7 +55,7 @@ public class RegistrationTests extends BaseTests{
         registerPage = new RegisterPage(driver);
         registerPage.setFirstNameField("Shelby");
         registerPage.setLastNameField("Oke");
-        registerPage.setEmailField("SMO19@gmail.com");
+        registerPage.setEmailField("SMO21@gmail.com");
         registerPage.setPasswordField("Meeple");
         registerPage.clickRegisterButton();
         //***********************************************************************
@@ -65,7 +65,7 @@ public class RegistrationTests extends BaseTests{
 
         // sign in as new user
         loginPage = new LoginPage(driver);
-        loginPage.setEmailField("SMO19@gmail.com");
+        loginPage.setEmailField("SMO21@gmail.com");
         loginPage.setPasswordField("Meeple");
         loginPage.clickLoginButton();
         //***********************************************************************
@@ -91,8 +91,6 @@ public class RegistrationTests extends BaseTests{
     public void tc0003_registration_verify_email(String desc, String email) throws InterruptedException {
         driver.get("https://www.alexandnova.com/account/register");
 
-        System.out.println("Passed Parameter Desc is : " + desc);
-        System.out.println("Passed Parameter Is : " + email);
         //**********************************************************
         // Try to register with email without @ sign, without period,
         // with random string, and with AT instead of @
