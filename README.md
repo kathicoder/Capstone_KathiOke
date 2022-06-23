@@ -5,11 +5,11 @@ UI testing runs against Alex and Nova commerce website https://www.alexandnova.c
 
 ## UI Project Technical Environment
 
-Maven project in IntelliJ
-Java 8
-Selnium WebDriver
-POM model
-TestNG and Extent reports
+* Maven project in IntelliJ
+* Java 8
+* Selenium WebDriver
+* POM model
+* TestNG and Extent reports
 
 ## Dependencies added:
 
