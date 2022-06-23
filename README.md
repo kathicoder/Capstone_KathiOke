@@ -40,21 +40,14 @@ a few Thread.sleep instances were added to deal with website captcha interferenc
 
 ## The following TestNG annotations are used:
 
-* **@Parameter**
-used in the testng.xml file to pass browser choice 
-* **@Test**
-used for each test case
-* **@BeforeMethod**
-gets testcase name from Java Reflection and sets up extent report at test level and sets up screen shot png file
-* **@AfterMethod**
-ITestResult is used to get result status of test and screenshots are taken
-
-* **@BeforeClass**
-starts browser
+* **@Parameter** <br />used in the testng.xml file to pass browser choice 
+* **@Test** <br />used for each test case
+* **@BeforeMethod** <br />gets testcase name from Java Reflection and sets up extent report at test level and sets up screen shot png file
+* **@AfterMethod** <br />ITestResult is used to get result status of test and screenshots are taken
+* **@BeforeClass**<br />starts browser
 deletes cookies
 starts implicit wait
-* **@AfterClass**
-quits driver 
+* **@AfterClass** <br />quits driver 
 * **@BeforeSuite**
 sets up extent reports 
 * **@AfterSuite**
