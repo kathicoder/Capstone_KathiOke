@@ -60,6 +60,16 @@ sets up extent reports
 * **@AfterSuite**
 flushes extent reports
 
+## UI Challenges
+
+* Captcha
+* Requirements
+* No Test Environment
+* Report creation
+* Duplicate Code
+* iframes
+* Locating elements
+
 ## API Testing
 
 API testing was run using: 
