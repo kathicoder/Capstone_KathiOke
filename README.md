@@ -65,7 +65,7 @@ used to rerun the email verification test case bringing in different email value
 ## UI Challenges
 
 * **Captcha** <br /> Thread.sleep instances were added to deal with website captcha interference where manual intervention was required
-* Requirements <br /> Incomplete requirements and missing details required some assumptions since there was no project manager to QA manager to refer to for clarification. Learned the importance of the requirements process.
+* **Requirements** <br /> Incomplete requirements and missing details required some assumptions since there was no project manager to QA manager to refer to for clarification. Learned the importance of the requirements process.
 * **No Test Environment** <br /> Testing in a live production environment was challenging since data and responses kept changing. Learned the importance of a good test environment.
 * **Report creation** <br /> I wanted my reports to accurately reflect passes and fails and to show screenshots and logging. I researched these topics and taught myself about the ITestResults class and used it in my code.
 * **Duplicate Code** <br /> I wanted to separate out duplicate code into a BaseTest class that could be inherited in all test classes. To accomplish this I needed to research using @Parameters for cross browser testing and using the Java Reflection Method to retrieve test case names to remove hard coding.<br /> Another way I reduced duplicate code was to use @Dataprovider to rerun the email verification test case bringing in different email values.
