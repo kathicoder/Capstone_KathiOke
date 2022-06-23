@@ -64,13 +64,13 @@ used to rerun the email verification test case bringing in different email value
 
 ## UI Challenges
 
-* Captcha <br /> Thread.sleep instances were added to deal with website captcha interference where manual intervention was required
+* **Captcha** <br /> Thread.sleep instances were added to deal with website captcha interference where manual intervention was required
 * Requirements <br /> Incomplete requirements and missing details required some assumptions since there was no project manager to QA manager to refer to for clarification. Learned the importance of the requirements process.
-* No Test Environment <br /> Testing in a live production environment was challenging since data and responses kept changing. Learned the importance of a good test environment.
-* Report creation <br /> I wanted my reports to accurately reflect passes and fails and to show screenshots and logging. I researched these topics and taught myself about the ITestResults class and used it in my code.
-* Duplicate Code <br /> I wanted to separate out duplicate code into a BaseTest class that could be inherited in all test classes. To accomplish this I needed to research using @Parameters for cross browser testing and using the Java Reflection Method to retrieve test case names to remove hard coding.<br /> Another way I reduced duplicate code was to use @Dataprovider to rerun the email verification test case bringing in different email values.
-* iframes <br /> I already knew how to handle iframes but was challenged by the check out page where every credit card field was its own iframe. This was great iframe processing practice.
-* Locating elements <br /> I had a hard time locating some of the elements that didn't have unique names. When I looked deeper into the fields that were used in the definition of some of these elements I discovered Custom Attributes. I had never heard of these before and taught myself how to reference these attributes to select them and retrieve data from them.  
+* **No Test Environment** <br /> Testing in a live production environment was challenging since data and responses kept changing. Learned the importance of a good test environment.
+* **Report creation** <br /> I wanted my reports to accurately reflect passes and fails and to show screenshots and logging. I researched these topics and taught myself about the ITestResults class and used it in my code.
+* **Duplicate Code** <br /> I wanted to separate out duplicate code into a BaseTest class that could be inherited in all test classes. To accomplish this I needed to research using @Parameters for cross browser testing and using the Java Reflection Method to retrieve test case names to remove hard coding.<br /> Another way I reduced duplicate code was to use @Dataprovider to rerun the email verification test case bringing in different email values.
+* **iframes** <br /> I already knew how to handle iframes but was challenged by the check out page where every credit card field was its own iframe. This was great iframe processing practice.
+* **Locating elements** <br /> I had a hard time locating some of the elements that didn't have unique names. When I looked deeper into the fields that were used in the definition of some of these elements I discovered Custom Attributes. I had never heard of these before and taught myself how to reference these attributes to select them and retrieve data from them.  
 
 ## API Testing
 
