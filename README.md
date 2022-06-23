@@ -40,20 +40,15 @@ a few Thread.sleep instances were added to deal with website captcha interferenc
 
 ## The following TestNG annotations are used:
 
-* **@Parameter** <br />used in the testng.xml file to pass browser choice 
-* **@Test** <br />used for each test case
-* **@BeforeMethod** <br />gets testcase name from Java Reflection and sets up extent report at test level and sets up screen shot png file
+* **@Parameter** <br />In the testng.xml file to pass browser choice 
+* **@Test** <br />For each test case
+* **@BeforeMethod** <br />Gets testcase name from Java Reflection and sets up extent report at test level and sets up screen shot png file
 * **@AfterMethod** <br />ITestResult is used to get result status of test and screenshots are taken
-* **@BeforeClass**<br />starts browser
-deletes cookies
-starts implicit wait
-* **@AfterClass** <br />quits driver 
-* **@BeforeSuite**
-sets up extent reports 
-* **@AfterSuite**
-flushes extent reports
-* **@DataProvider**
-used to rerun the email verification test case bringing in different email values
+* **@BeforeClass**<br />Starts browser<br />deletes cookies<br />starts implicit wait
+* **@AfterClass** <br />Quits driver 
+* **@BeforeSuite** <br />Sets up extent reports 
+* **@AfterSuite** <br />Flushes extent reports
+* **@DataProvider** <br />Used to rerun the email verification test case bringing in different email values
 
 ## UI Challenges
 
