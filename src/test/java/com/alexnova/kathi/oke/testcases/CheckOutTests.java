@@ -45,7 +45,7 @@ public class CheckOutTests extends BaseTests{
         productPage.clickBookTypeField();
         JavascriptExecutor jse1 = (JavascriptExecutor)driver;
         jse1.executeScript("window.scrollBy(0,400)");
-        productPage.clickAddBookToCart();
+        productPage.clickAddToCart();
         checkOutPage = productPage.clickCheckOutLink();
         String expectedDiscountEntered = "OHBABY15";
         checkOutPage.setDiscountField(expectedDiscountEntered);

@@ -8,12 +8,9 @@ public class ProductPage {
     By productPriceField = By.className("money");
     By productSizeField = By.xpath("//*[@id=\"bcpo-select-option-0\"]/div[2]/label");
     By productColorField = By.xpath("//*[@id=\"bcpo-select-option-1\"]/div[5]/label");
-    By addToCartButton = By.xpath("//*[@id=\"product_form_4313722716213\"]/div[4]/input");
-    By addBookToCartButton = By.xpath("//*[@id=\"product_form_6930351095861\"]/div[4]/input");
-    By cartAddMessageField = By.xpath("//*[@id=\"product_form_4313722716213\"]/div[5]");
-    By cartCountField = By.className("cart-count-number");
+    By addToCartButton = By.className("add-to-cart");
     By buyNowButton = By.className("alexnova-moreOptions-btn");
-    By cartLink = By.xpath("//*[@id=\"product_form_4313722716213\"]/div[5]/a[1]");
+    By cartLink = By.linkText("cart");
     By checkoutLink = By.linkText("check out");
     By bookTypeField = By.xpath("//*[@id=\"bcpo-select-option-0\"]/div[3]/label");
 
@@ -35,14 +32,6 @@ public class ProductPage {
     public void clickAddToCart()
     {
         driver.findElement(addToCartButton).click();
-    }
-    public String checkCartMessage()
-    {
-        return driver.findElement(cartAddMessageField).getText();
-    }
-    public void clickAddBookToCart()
-    {
-        driver.findElement(addBookToCartButton).click();
     }
     public CheckOutPage clickBuyNowButton()
     {
