@@ -137,9 +137,4 @@ public class CheckOutTests extends BaseTests{
         Assert.assertTrue(actualNotice.contains(expectedNotice));
     }
 
-    @AfterClass
-    public void closeBrowser()
-    {
-        driver.quit();
-    }
 }

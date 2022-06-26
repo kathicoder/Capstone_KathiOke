@@ -4,39 +4,39 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="17.551">
+           time="22.478">
     <properties></properties>
 
 
 
             <testcase
                 name="tc0011_validate_product_add_to_cart_test"
-                time="3.366"
-                classname="com.alexnova.kathi.oke.testcases.ProductAddToCartTests">
-            </testcase>
-            <testcase
-                name="tc0014_verify_quantity_matches_cost_in_cart_test"
-                time="0.166"
-                classname="com.alexnova.kathi.oke.testcases.ProductAddToCartTests">
-            </testcase>
-            <testcase
-                name="tc0013_quantity_increase_in_cart_test"
-                time="2.133"
+                time="10.123"
                 classname="com.alexnova.kathi.oke.testcases.ProductAddToCartTests">
             </testcase>
             <testcase
                 name="tc0010_validate_product_price_test"
-                time="7.817"
-                classname="com.alexnova.kathi.oke.testcases.ProductAddToCartTests">
-            </testcase>
-            <testcase
-                name="tc0015_verify_quantity_can_be_removed_from_cart_test"
-                time="3.026"
+                time="5.445"
                 classname="com.alexnova.kathi.oke.testcases.ProductAddToCartTests">
             </testcase>
             <testcase
                 name="tc0012_validate_product_present_in_cart_test"
-                time="1.043"
+                time="1.677"
+                classname="com.alexnova.kathi.oke.testcases.ProductAddToCartTests">
+            </testcase>
+            <testcase
+                name="tc0015_verify_quantity_can_be_removed_from_cart_test"
+                time="3.174"
+                classname="com.alexnova.kathi.oke.testcases.ProductAddToCartTests">
+            </testcase>
+            <testcase
+                name="tc0013_quantity_increase_in_cart_test"
+                time="1.935"
+                classname="com.alexnova.kathi.oke.testcases.ProductAddToCartTests">
+            </testcase>
+            <testcase
+                name="tc0014_verify_quantity_matches_cost_in_cart_test"
+                time="0.124"
                 classname="com.alexnova.kathi.oke.testcases.ProductAddToCartTests">
             </testcase>
 </testsuite>

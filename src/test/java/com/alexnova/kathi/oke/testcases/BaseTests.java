@@ -66,7 +66,11 @@ public class BaseTests {
             test.log(Status.SKIP, result.getTestName());
         }
     }
-
+    @AfterClass
+    public void closeBrowser()
+    {
+        driver.quit();
+    }
     @AfterSuite
     public void tearDown()
     {

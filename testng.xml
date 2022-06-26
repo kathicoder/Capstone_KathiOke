@@ -5,11 +5,11 @@
     <test name="Testing Chrome" enabled="true">
     <parameter name="browserName" value="Chrome"></parameter>
         <classes>
-            <class name="com.alexnova.kathi.oke.testcases.RegistrationTests"></class>
-            <class name="com.alexnova.kathi.oke.testcases.LoginTests"></class>
-            <class name="com.alexnova.kathi.oke.testcases.SearchProductsTests"></class>
+<!--            <class name="com.alexnova.kathi.oke.testcases.RegistrationTests"></class>-->
+<!--            <class name="com.alexnova.kathi.oke.testcases.LoginTests"></class>-->
+<!--            <class name="com.alexnova.kathi.oke.testcases.SearchProductsTests"></class>-->
             <class name="com.alexnova.kathi.oke.testcases.ProductAddToCartTests"></class>
-            <class name="com.alexnova.kathi.oke.testcases.CheckOutTests"></class>
+<!--            <class name="com.alexnova.kathi.oke.testcases.CheckOutTests"></class>-->
         </classes>
     </test>
     <test name="Testing Edge" enabled="false">

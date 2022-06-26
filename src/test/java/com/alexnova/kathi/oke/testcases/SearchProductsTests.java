@@ -54,9 +54,4 @@ public class SearchProductsTests extends BaseTests {
         String expectedBanner = "No results found. Showing top popular products you might want to consider...";
         Assert.assertEquals(actualBanner, expectedBanner);
     }
-    @AfterClass
-    public void closeBrowser()
-    {
-        driver.quit();
-    }
 }

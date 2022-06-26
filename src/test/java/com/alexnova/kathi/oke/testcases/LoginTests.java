@@ -66,9 +66,4 @@ public class LoginTests extends BaseTests{
         Assert.assertEquals(actualErrorBanner, expectedError);
     }
 
-    @AfterClass
-    public void closeBrowser()
-    {
-        driver.quit();
-    }
 }

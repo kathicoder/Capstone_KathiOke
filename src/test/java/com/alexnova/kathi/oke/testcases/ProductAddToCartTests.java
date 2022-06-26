@@ -43,11 +43,11 @@ public class ProductAddToCartTests extends BaseTests{
     // This test asserts that the product page display price
     //**********************************************************************************************
     @Test(priority = 10, enabled = true)
-    public void tc0010_validate_product_price_test()
-    {
+    public void tc0010_validate_product_price_test() throws InterruptedException {
         accountPage = new AccountPage(driver);
         clearancePage = accountPage.clickClearanceLink();
         productPage = clearancePage.clickProductTitle();
+        Thread.sleep(3000);
         String actualPrice = productPage.getProductPrice();
         System.out.println("Actual Price = " +actualPrice);
         String expectedPrice = "$34.95 USD";
@@ -122,19 +122,14 @@ public class ProductAddToCartTests extends BaseTests{
     // This test asserts that the quantity can be removed from the cart
     //**********************************************************************************************
     @Test(priority = 15, enabled = true)
-    public void tc0015_verify_quantity_can_be_removed_from_cart_test()
-    {
+    public void tc0015_verify_quantity_can_be_removed_from_cart_test() throws InterruptedException {
         cartPage = new CartPage(driver);
         cartPage.clearQuantity();
         String quantitySet = "0";
         cartPage.setQuantity(quantitySet);
+        Thread.sleep(3000);
         String actualMessage = cartPage.getEmptyMessage();
         String expectedMessage = "You don't have any items in your cart yet.";
         Assert.assertTrue(actualMessage.contains(expectedMessage));
-    }
-    @AfterClass
-    public void closeBrowser()
-    {
-        driver.quit();
     }
 }

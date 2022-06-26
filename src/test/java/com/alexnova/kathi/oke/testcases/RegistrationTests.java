@@ -156,9 +156,4 @@ public class RegistrationTests extends BaseTests{
         Assert.assertEquals(actualErrorBanner, expectedError);
     }
 
-    @AfterClass
-    public void closeBrowser()
-    {
-        driver.quit();
-    }
 }
